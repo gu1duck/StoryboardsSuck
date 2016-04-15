@@ -89,7 +89,7 @@ class ViewController: UIViewController {
         return button
     }()
 
-    // goNext creates a new view controller and tells the navigation controller to navigate to it
+    // 3️⃣ goNext() creates a new view controller and tells the navigation controller to navigate to it
 
     func goNext() {
         let next = ViewController() // Here, we create another instance of _this_ view controller. It will have all the same properties set up as this one
